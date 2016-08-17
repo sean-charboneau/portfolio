@@ -1,0 +1,19 @@
+{
+    "name": "jake-portfolios",
+    "preferGlobal": true,
+    "version": "0.0.1",
+    "author": "Sean Charboneau",
+    "description": "simple portfolio site",
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.10"
+    },
+    "scripts": {
+        "start": "node ./app.js"
+    },
+    "dependencies": {
+        "express": "~4.14.0",
+        "ghost": "~0.9.0",
+        "isotope-layout": "~3.0.1"
+    }
+}
